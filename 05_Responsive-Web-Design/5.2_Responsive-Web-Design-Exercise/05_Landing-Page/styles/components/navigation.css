@@ -1,0 +1,21 @@
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #921ea9;
+}
+
+@media (min-width: 425px) {
+    .navbar ul {
+        flex-direction: row;
+    }
+}
