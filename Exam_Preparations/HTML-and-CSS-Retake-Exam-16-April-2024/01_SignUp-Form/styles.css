@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.6 'Kode Mono';
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #eee;
+}
+
+.container {
+    background-color: #24333C;
+    width: 35em;
+    margin: 10em auto;
+    padding: 2em;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: #1AB188;
+    padding: 1em 5.7em;
+}
+
+.sign-up {
+    color: #fff;
+}
+
+.log-in {
+    color: #88A3A7;
+    background-color: #435359;
+}
+
+.log-in:hover {
+    background-color: #289A77;
+    color: #fff;
+}
+
+.content-contaienr {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.title {
+    margin-top: 1.5em;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.input-fields-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.input-fields-container p {
+    color: #88A3A7;
+    border: 1px solid gray;
+    padding: 0.3em;
+}
+
+.input-fields-container p>span {
+    color: #1AB188
+}
+
+.names-container {
+    display: flex;
+    gap: 1em;
+}
+
+.first-name {
+    flex: 0 0 50%;
+}
+
+.last-name {
+    flex: 1 0 auto;
+}
+
+.get-started {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.3em 3em;
+    text-transform: uppercase;
+}

@@ -1,0 +1,103 @@
+.site-main {
+    background-color: #60ACC1;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3em;
+    gap: 2em;
+}
+
+.catalog-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+}
+
+.catalog-card {
+    box-shadow: 0 0 2em rgba(0, 0, 0, 1);
+    border-radius: 2.5em;
+    background-color: #60ACC1;
+}
+
+.catalog-card-wrapper {
+    display: flex;
+    background-color: #fff;
+    border-right: 0.5em solid #60ACC1;
+    width: 34em;
+}
+
+.catalog-card-media img {
+    min-height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.catalog-card-content {
+    padding: 3em 0em 3em 2.5em;
+}
+
+.catalog-card-content h3 {
+    padding-bottom: 1em;
+    width: 80%;
+    font-size: 1.3em;
+}
+
+.catalog-card-content p {
+    text-align: left;
+    width: 80%;
+}
+
+.catalog-card-media {
+    flex: 1 0 50%;
+}
+
+.showcase {
+    padding: 3em 2em;
+    background-color: #fff;
+}
+
+.showcase-cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    flex: 0 1 28%;
+}
+
+.showcase-card-content {
+    text-align: center;
+}
+
+.showcase-card-content h3 {
+    padding-bottom: 1em;
+}
+
+.showcase-card-media img {
+    width: 10em;
+    height: 10em;
+}
+
+.catalog-images-container {
+    display: flex;
+    gap: 5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog-image-container {
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.8);
+    border-radius: 2em;
+}
+
+.catalog-image-container img {
+    width: 23em;
+    height: 18em;
+}

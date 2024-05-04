@@ -1,0 +1,1 @@
+The site is not responsive. It's made for 1440px width Google Chrome responsive tab.
